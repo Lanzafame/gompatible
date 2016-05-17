@@ -1,9 +1,6 @@
 package gompatible
 
-import (
-	"go/types"
-	_ "golang.org/x/tools/go/gcimporter"
-)
+import "go/types"
 
 // TypeChange represents a change between two types.
 type TypeChange struct {
